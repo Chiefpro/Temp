@@ -23,6 +23,6 @@
 
 greeting(prompt("Введите пожалуйста Ваше имя => "));
 
-function greeting(n) {
-    console.log(`Привет ${n}`);
+function greeting(name) {
+    console.log(`Привет ${name}`);
 }
