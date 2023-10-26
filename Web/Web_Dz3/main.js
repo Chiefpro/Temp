@@ -2,6 +2,11 @@
 // let b = Number.parseInt(prompt("Введи число B "));
 // alert(`Результат сложения ${a} и ${b} = ${a + b}`);
 
+// const cels = +prompt("Введи температуру в цельсиях: ");
+// const farenh = (cels + 32) * 9 / 5;
+// alert(`Цельсия: ${cels}, Фаренгейт: ${Math.round(farenh * 100) / 100}`);
+
+
 // function sum(n1, n2) {
 //     const n3 = n1 + n2;
 //     return n3;
