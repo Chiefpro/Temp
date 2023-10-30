@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+  
+  body {
+    scroll-behavior: smooth;
+    background: #fff;
+  }
+  
+  .header {
+    padding: 40px 0;
+    margin-bottom: 30px;
+  }
+  img {
+    display: block;
+    max-width: 100%;
+  }
