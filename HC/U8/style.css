@@ -249,78 +249,73 @@ img {
   justify-content: center;
 }
 
-.b1{
-    background: #222222;
-   padding: 10px;
-   border: 0;
-   cursor: pointer;
+.b1 {
+  background: #222222;
+  padding: 10px;
+  border: 0;
+  cursor: pointer;
 }
 
 /* -------------------------------------------------------------------------
 --------------------------------------------------------------------------
 -------------------------------------------------------------------------- */
 
-
-@media (max-width: 1024px) and (min-width: 768px){
+@media (max-width: 1024px) and (min-width: 768px) {
   .container {
-		max-width: 734px;
-	}
-.banner_top {
-  background: #f1e4e6;
-  margin-bottom: 60px;
-  height: 368px;
-}
-.banner{
-  justify-content: end;
-}
-.banner img{
- gap: 2px;
- max-height: 368px;
-}
-.banner_right {
-  border-left: 12px solid #f16d7f;
-  padding: 16px;
-  gap: 10px;
-  
-}
-.banner h1 {
-  color: #222;
-  font-family: "Lato", sans-serif;
-  font-size: 44px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-.banner p {
-  color: #222;
-  font-family: "Lato", sans-serif;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-.banner b {
-  color: #f16d7f;
-  font-family: "Lato", sans-serif;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
+    max-width: 734px;
+  }
+  .banner_top {
+    background: #f1e4e6;
+    margin-bottom: 60px;
+    height: 368px;
+  }
+  .banner {
+    justify-content: end;
+  }
+  .banner img {
+    gap: 2px;
+    max-height: 368px;
+  }
+  .banner_right {
+    border-left: 12px solid #f16d7f;
+    padding: 16px;
+    gap: 10px;
+  }
+  .banner h1 {
+    color: #222;
+    font-family: "Lato", sans-serif;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .banner p {
+    color: #222;
+    font-family: "Lato", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .banner b {
+    color: #f16d7f;
+    font-family: "Lato", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
 
+  /* ------------------------------------------------------ */
 
-/* ------------------------------------------------------ */
-
- 
-
-.body_1 {
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  .body_1 {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     justify-items: stretch;
     gap: 5px;
     margin-bottom: 80px;
   }
-  
+
   .body_1 h3 {
     font-size: 16px;
   }
@@ -334,9 +329,8 @@ img {
   .card_1_fon_4 {
     width: 734px;
     height: 116px;
-    
   }
-  
+
   .card_1_1 {
     width: 232px;
     height: 168px;
@@ -352,53 +346,50 @@ img {
     height: 168px;
     background-size: cover;
   }
-  
+
   .card_1_4 {
     width: 734px;
     height: 116px;
-    background-size: cover; 
-   }
-   .body_2_banner {
+    background-size: cover;
+  }
+  .body_2_banner {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
     justify-items: stretch;
     gap: 16px;
     margin-bottom: 48px;
-   }
-  
+  }
 }
-
 
 /* -------------------------------------------------------------------------
 --------------------------------------------------------------------------
 -------------------------------------------------------------------------- */
 
-
-@media (max-width: 767px) and (min-width: 320px){
+@media (max-width: 767px) and (min-width: 320px) {
   .container {
-		max-width: 343px;
-	}
+    max-width: 343px;
+  }
 
   .banner_top {
     background: #f1e4e6;
     margin-bottom: 60px;
     height: 363px;
   }
-  .banner{
-    justify-content:left;
-    flex-wrap: wrap;
+  .banner {
+    justify-content: center;
     flex-direction: column;
+    align-items: center;
     max-height: 363px;
+    padding: 20px;
   }
-  .banner img{
-   gap: 2px;
-   max-height: 0px;
+  .banner img {
+    gap: 2px;
+    /* max-height: 0px; */
   }
   .banner_right {
     border-left: 12px solid #f16d7f;
     padding: 16px;
     gap: 10px;
-    
   }
   .banner h1 {
     color: #222;
@@ -424,76 +415,69 @@ img {
     font-weight: 700;
     line-height: normal;
   }
-  
-  
+
   /* ------------------------------------------------------ */
-  
-    .body_1 {
-      /* justify-items: stretch;
+
+  .body_1 {
+    /* justify-items: stretch;
       grid-template-columns: 1fr;
   grid-template-rows: repeat(6, 1fr); */
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  justify-items:center;
-      gap: 30px;
-      margin-bottom: 60px;
-    }
-    
-    .body_1 h3 {
-      font-size: 16px;
-    }
-    .body_1 h2 {
-      font-size: 24px;
-    }
-    .card_1_fon {
-      width: 343px;
-      height: 247px;
-    }
-    .card_1_fon_4 {
-      width: 343px;
-      height: 111px;
-      
-    }
-    
-    .card_1_1 {
-      width: 343px;
-      height: 247px;
-      background-size: cover;
-    }
-    .card_1_2 {
-      width: 343px;
-      height: 247px;
-      background-size: cover;
-    }
-    .card_1_3 {
-      width: 343px;
-      height: 247px;
-      background-size: cover;
-    }
-    
-    .card_1_4 {
-      width: 343px;
-      height: 111px;
-      background-size: cover; 
-     }
-     .body_2_banner {
-      /* display: flex;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-items: center;
+    gap: 30px;
+    margin-bottom: 60px;
+  }
+
+  .body_1 h3 {
+    font-size: 16px;
+  }
+  .body_1 h2 {
+    font-size: 24px;
+  }
+  .card_1_fon {
+    width: 343px;
+    height: 247px;
+  }
+  .card_1_fon_4 {
+    width: 343px;
+    height: 111px;
+  }
+
+  .card_1_1 {
+    width: 343px;
+    height: 247px;
+    background-size: cover;
+  }
+  .card_1_2 {
+    width: 343px;
+    height: 247px;
+    background-size: cover;
+  }
+  .card_1_3 {
+    width: 343px;
+    height: 247px;
+    background-size: cover;
+  }
+
+  .card_1_4 {
+    width: 343px;
+    height: 111px;
+    background-size: cover;
+    background-position: center;
+  }
+  .body_2_banner {
+    /* display: flex;
       flex-wrap: wrap;
       justify-content: center; */
-      grid-template-columns: repeat(1, 1fr);
-      grid-template-rows: repeat(6, 1fr);
-      justify-items: stretch;
-      gap: 16px;
-      margin-bottom: 48px;
-     }
-    
-  
-
-
-
-
-
-
-
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    justify-items: stretch;
+    gap: 16px;
+    margin-bottom: 48px;
+  }
+  .hide{
+    display: none;
+  }
 }
