@@ -43,6 +43,26 @@ img {
   align-items: center;
   gap: 20px;
 }
+
+.five{
+  position: relative;
+  top: -12px;
+  left: -40px;
+  background: #F16D7F;
+  border-radius: 10px 10px;
+  border-style: none;
+
+width: 19px;
+height: 19px;
+
+color: #FFF;
+font-family: "Lato", sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
 .banner_top {
   background: #f1e4e6;
   margin-bottom: 60px;
