@@ -210,6 +210,56 @@ line-height: normal;
   gap: 30px;
   margin-bottom: 48px;
 }
+
+
+.b22{
+  background-image: url("./img/b22.png");
+  width: 360px;
+  height: 420px
+}
+.dark{
+  background: rgba(58, 56, 56, 0.86);
+  width: 360px;
+  height: 420px;
+  /* display: none; */
+display: flex;
+justify-content: center;
+align-items: center;
+position: absolute;
+}
+
+.dark button{
+  width: 139px;
+  height: 44px;
+  background: none;
+  border: #FFF;
+  color: #FFF;
+font-family: "Lato", sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+display: flex;
+align-items: center;
+    justify-content: space-around;
+    border-width: 2px;
+    border-style: solid;
+
+}
+
+
+.rr{
+  position: relative;
+  top: 0px;
+  left: 0px;
+  
+}
+
+.body_2_ban_img:hover{
+  display: none;
+}
+
+
 .body_2_banner h2 {
   color: #000;
   font-family: "Lato", sans-serif;
@@ -330,6 +380,7 @@ line-height: normal;
 }
 .body_4{
   background: rgba(244, 244, 244, 0.70);
+  background-size:cover;
   max-width: 1600px;
   height: 448px; 
   display: flex;
@@ -460,7 +511,20 @@ line-height: normal;
   gap: 7px;
   
 }
+.footer_button{
+  border-style:none;
+  border-width: 0px;
+  bor
+}
 
+.footer_button svg:hover{
+fill:#FFF;
+
+}
+.footer_button svg path:hover{
+fill:#f16d7f;
+
+}
 /* -------------------------------------------------------------------------
 --------------------------------------------------------------------------
 -------------------------------------------------------------------------- */
