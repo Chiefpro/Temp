@@ -255,8 +255,13 @@ align-items: center;
   
 }
 
-.body_2_ban_img:hover{
-  display: none;
+.body_2_ban_img:hover::after {
+  background: rgba(58, 56, 56, 0.86);
+  width: 360px;
+  height: 420px;
+  position: absolute;
+  margin-left: -360px
+  
 }
 
 
