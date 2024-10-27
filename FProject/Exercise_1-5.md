@@ -25,7 +25,7 @@ sudo apt install mysql-server
 sudo mysql_secure_installation
 sudo mysql_secure_installation
 sudo apt-get install mysql-workbench-community
-***
+---
 sudo dpkg -s mysql-server
 sudo dpkg -r mysql-workbench-community
 sudo dpkg -r mysql-community-server
