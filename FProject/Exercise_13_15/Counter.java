@@ -1,4 +1,4 @@
-package 13-15_Exercise;
+package Exercise_13_15;
 
 public class Counter implements AutoCloseable{
 
