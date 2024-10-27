@@ -1,4 +1,4 @@
-#### Задание 1
+### Задание 1
 ***
 cat > домашние_животные
 собаки
@@ -10,14 +10,14 @@ cat > вьючные_животные
 ослы
 cat домашние_животные вьючные_животные > друзья_человека
 cat друзья_человека
-#### Задание 2
+### Задание 2
 ***
 mv друзья_человека final_task
-#### Задание 3
+### Задание 3
 ***
 sudo apt install mysql-server mysql-client
 sudo apt-get update
-#### Задание 4
+### Задание 4
 ***
 wget https://dev.mysql.com/get/mysql-apt-config_0.8.24-1_all.deb
 sudo dpkg -i mysql-apt-config_0.8.24-1_all.deb
